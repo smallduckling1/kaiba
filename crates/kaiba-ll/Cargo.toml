@@ -1,0 +1,14 @@
+[package]
+name = "kaiba-ll"
+description = "LLVM IR (.ll text) frontend: lowers a practical subset into llcr"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+llcr = { path = "../llcr" }
+
+[dev-dependencies]
+kaiba-x86 = { path = "../kaiba-x86" }
+kaiba-a64 = { path = "../kaiba-a64" }

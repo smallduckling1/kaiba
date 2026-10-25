@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["crates/llcr", "crates/kaiba", "crates/kaiba-mir", "crates/kaiba-x86", "crates/kaiba-a64", "crates/kaiba-ll"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-only"   # plus Kaiba Runtime/Output Exception, see LICENSE-EXCEPTION
+repository = "https://example.org/kaiba"
+rust-version = "1.75"

@@ -1,0 +1,10 @@
+[package]
+name = "kaiba-mir"
+description = "Target-independent machine IR, instruction selection and register allocation for Kaiba backends"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+llcr = { path = "../llcr" }

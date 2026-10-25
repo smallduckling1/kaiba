@@ -1,0 +1,28 @@
+GCC Runtime Library Exception version 3.1 (Adapted for Kaiba)
+
+Copyright (C) 2026 Damjan. Everyone is permitted to copy and distribute verbatim 
+copies of this license document, but changing it is not allowed.
+
+This GCC Runtime Library Exception ("Exception") is an additional permission 
+under sections 2 and 3 of the GNU General Public License, version 2 ("GPL-2.0"). 
+It applies to the Kaiba compiler toolchain (the "Program").
+
+As a special exception to the GPL, you may link code compiled by Kaiba with other 
+independent software to produce an executable, and distribute that executable under 
+terms of your choice, provided that no other code of the Program itself is included 
+in such executable. 
+
+Furthermore, if you modify this Program, you may extend this exception to your 
+version of the Program, but you are not obligated to do so. If you do not wish 
+to do so, delete this exception statement from your version.
+
+1. Grant of Additional Permission.
+You have permission to convey a work formed by combining the Program, or a modified 
+version of the Program, with separate work (such as application code, runtime libraries, 
+or output binaries), under terms of your choice concerning the separate work, 
+provided that the compilation or linking is done by the Program as intended.
+
+2. No Impairment of Copyleft.
+Nothing in this Exception relieves any holder of a copy of the Program from 
+adhering to the full terms and conditions of the GPL-2.0-only as it applies to 
+the compiler, optimizers, and backend source code itself.

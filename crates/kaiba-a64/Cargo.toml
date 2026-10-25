@@ -1,0 +1,11 @@
+[package]
+name = "kaiba-a64"
+description = "AArch64 (AAPCS64, Linux) code generator for llcr"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+llcr = { path = "../llcr" }
+kaiba-mir = { path = "../kaiba-mir" }

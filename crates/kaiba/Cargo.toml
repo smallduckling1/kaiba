@@ -1,0 +1,17 @@
+[package]
+name = "kaiba"
+description = "Kaiba compiler driver"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "kaiba"
+path = "src/main.rs"
+
+[dependencies]
+llcr = { path = "../llcr" }
+kaiba-x86 = { path = "../kaiba-x86" }
+kaiba-ll = { path = "../kaiba-ll" }
+kaiba-a64 = { path = "../kaiba-a64" }
